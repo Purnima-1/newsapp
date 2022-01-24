@@ -20,7 +20,7 @@ export class NavBar extends Component {
                                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/about">About</a>
+                                    <a className="nav-link" href="/about">About Us</a>
                                     {/* <Link to="/about">About</Link> */}
                                 </li>
                                 
