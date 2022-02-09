@@ -26,7 +26,7 @@ export class News extends Component {
         this.setState({ articles: parsedData.articles })
     }
     handlePrevClick = async () => {
-        console.log('Previous');
+        
         let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=110ca2c3c0454fc78977aba4488949b2&page=${this.state.page - 1}`;
 
         let data = await fetch(url)
@@ -40,7 +40,7 @@ export class News extends Component {
     }
 
     handleNextClick = async () => {
-        console.log('Next');
+        
         let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=110ca2c3c0454fc78977aba4488949b2&page=${this.state.page + 1}`;
 
         let data = await fetch(url)
